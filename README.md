@@ -1,6 +1,8 @@
 # CSharpCollageCreator
 Picture collage creator that uses an evolutionary algorythm.
 
+![Sample](Sample.png?raw=true)
+
 # Introduction:
 I googled a solution to generate *picture collages*, as I had the need to create one for a special case with 56 source images.
 What I wanted was:
