@@ -29,7 +29,7 @@ namespace CSharpCollageCreator
         // Definition of CLI arguments:
         static Dictionary<String, (String, String)> options = new()
         {
-            {"i", ("N/A", "Path to folder with source images.") },
+            {"i", ("N/A", "Path to folder with source images.")},
             {"s", ("160", "Pixel width or height of each source image in final image collection. The larger this value is, the larger the output image will be in pixels. >= 16")},
             {"r", ("1.414", "Pixel aspect ratio width / height of output image. > 0")},
             {"f", ("10", "Downsampling factor for calculating the solution. The larger this value is, the faster a solution will be found, but the more the images will overlap. >= 1, <= 256")},
